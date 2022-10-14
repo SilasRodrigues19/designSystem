@@ -147,4 +147,4 @@ Project Link: [https://github.com/SilasRodrigues19/designSystem](https://github.
 [license-url]: https://github.com/SilasRodrigues19/designSystem/blob/master/LICENSE
 
 <br><hr>
-[🔼 Back to top](#IgnitLab--Design-System)
+[🔼 Back to top](#Ignit-Lab---Design-System)
