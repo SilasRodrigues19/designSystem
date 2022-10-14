@@ -20,6 +20,8 @@
     <a href="https://tl-design-system.vercel.app"><strong>Demo</strong></a>
     &#124;
     <a href="https://www.figma.com/file/Yo7G2OAEW8cEdifeosG0UL/Design-System"><strong>Figma</strong></a>
+    &#124
+    <a href="https://silasrodrigues19.github.io/designSystem/"><strong>Docs</strong></a>
   </p>
 </p>
 
