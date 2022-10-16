@@ -18,7 +18,7 @@ export const Heading = ({ size = 'md', children, asChild, className }: HeadingPr
     <div>
       <CustomComponent
         className={clsx(
-          'text-gray-100 font-bold font-sans',
+          'text-black font-bold font-sans dark:text-gray-100',
           {
             'text-lg': size === 'sm',
             'text-xl': size === 'md',
