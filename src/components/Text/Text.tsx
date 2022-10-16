@@ -17,7 +17,7 @@ export const Text = ({ size = 'md', children, asChild, className }: TextProps) =
   return (
     <div>
       <CustomComponent
-        className={clsx('text-gray-100 font-sans', {
+        className={clsx('text-black font-sans dark:text-gray-100', {
           'text-xs': size === 'sm',
           'text-sm': size === 'md',
           'text-md': size === 'lg',

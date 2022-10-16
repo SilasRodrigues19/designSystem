@@ -9,7 +9,7 @@ export interface TextInputRootProps {
 
 const TextInputRoot = ({ children }: TextInputRootProps) => {
   return (
-    <div className='flex items-center gap-3 h-12 py-4 px-3 rounded outline-none bg-gray-800 w-full focus-within:ring-2 ring-cyan-300'>
+    <div className='flex items-center gap-3 h-12 py-4 px-3 rounded outline-none bg-gray-100 w-full focus-within:ring-2 ring-cyan-700 dark:ring-cyan-300 dark:bg-gray-800'>
       {children}
     </div>
   );
@@ -37,7 +37,7 @@ const TextInputInput = (props: TextInputInputProps) => {
 
   return (
     <input
-      className='bg-transparent flex-1 text-gray-100 text-xs placeholder:text-gray-400 outline-none'
+      className='bg-transparent flex-1 text-black text-xs placeholder:text-gray-400 outline-none dark:text-gray-100'
       {...props}
     />
   );
