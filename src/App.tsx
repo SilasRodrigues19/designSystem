@@ -1,6 +1,7 @@
 import { Envelope, Lock } from 'phosphor-react';
 import { Heading, Text, TextInput, Checkbox, Button } from './components';
 import { Logo } from './Logo';
+import { StorybookLogo } from './StorybookLogo';
 import './styles/global.css';
 
 export const App = () => {
@@ -10,6 +11,7 @@ export const App = () => {
       <header className='flex flex-col items-center'>
         <Logo />
 
+        <StorybookLogo/>
         <Heading size='lg' className='mt-4'>
           Ignit - Design System
         </Heading>
