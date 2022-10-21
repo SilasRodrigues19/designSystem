@@ -47,9 +47,14 @@
 
 <hr>
 
-### Ignit - Design System
+### Ignit - Design System Dark
 
-[![Preview][product-screenshot]](#)
+[![Preview][product-screenshot]](https://tl-design-system.vercel.app) 
+
+
+### Ignit - Design System Light
+[![Preview][product-screenshot2]](https://tl-design-system.vercel.app) 
+
 
 ## Built With
 
@@ -146,6 +151,7 @@ Project Link: [https://github.com/SilasRodrigues19/designSystem](https://github.
 [license-shield]: https://img.shields.io/github/license/SilasRodrigues19/designSystem.svg?style=for-the-badge
 [license-url]: https://github.com/SilasRodrigues19/designSystem/blob/master/LICENSE
 [product-screenshot]: ./public/screenshots/preview.png
+[product-screenshot2]: ./public/screenshots/preview2.png
 [license-url]: https://github.com/SilasRodrigues19/designSystem/blob/master/LICENSE
 
 <br><hr>

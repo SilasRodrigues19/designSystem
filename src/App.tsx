@@ -1,17 +1,15 @@
 import { Envelope, Lock } from 'phosphor-react';
 import { Heading, Text, TextInput, Checkbox, Button } from './components';
 import { Logo } from './Logo';
-import { StorybookLogo } from './StorybookLogo';
 import './styles/global.css';
 
 export const App = () => {
 
   return (
-    <main className='w-screen h-screen bg-gray-200 flex flex-col items-center justify-center dark:bg-gray-900 dark:gray-100'>
+    <main className='w-screen h-screen bg-gray-900 flex flex-col items-center justify-center text-gray-100'>
       <header className='flex flex-col items-center'>
         <Logo />
 
-        <StorybookLogo/>
         <Heading size='lg' className='mt-4'>
           Ignit - Design System
         </Heading>
@@ -23,9 +21,7 @@ export const App = () => {
 
       <form className='flex flex-col items-stretch gap-4 w-full max-w-sm mt-10'>
         <label htmlFor='email' className='flex flex-col gap-3'>
-          <Text className='font-semibold'>
-            Endereço de e-mail
-          </Text>
+          <Text className='font-semibold'>Endereço de e-mail</Text>
           <TextInput.Root>
             <TextInput.Icon>
               <Envelope />
@@ -40,9 +36,7 @@ export const App = () => {
         </label>
 
         <label htmlFor='password' className='flex flex-col gap-3'>
-          <Text className='font-semibold text-black dark:text-[#e1e1e6]'>
-            Sua senha
-          </Text>
+          <Text className='font-semibold'>Sua senha</Text>
           <TextInput.Root>
             <TextInput.Icon>
               <Lock />
@@ -58,10 +52,7 @@ export const App = () => {
 
         <label htmlFor='remember' className='flex items-center gap-2'>
           <Checkbox id='remember' />
-          <Text
-            size='sm'
-            className='text-black cursor-pointer select-none dark:text-gray-200'
-          >
+          <Text size='sm' className='text-gray-200 cursor-pointer select-none'>
             Lembrar de mim por 30 dias
           </Text>
         </label>
@@ -73,18 +64,12 @@ export const App = () => {
 
       <footer className='flex flex-col items-center gap-4 mt-8'>
         <Text asChild size='sm'>
-          <a
-            className='text-gray-400 underline hover:text-black transition-colors dark:text-gray-400 dark:hover:text-gray-200'
-            href='#'
-          >
+          <a className='text-gray-400 underline hover:text-gray-200 transition-colors' href='#'>
             Esqueceu sua senha?
           </a>
         </Text>
         <Text asChild size='sm'>
-          <a
-            className='text-gray-400 underline hover:text-black transition-colors dark:text-gray-400 dark:hover:text-gray-200'
-            href='#'
-          >
+          <a className='text-gray-400 underline hover:text-gray-200 transition-colors' href='#'>
             Não possui conta? Crie uma agora
           </a>
         </Text>
