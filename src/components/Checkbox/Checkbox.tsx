@@ -5,15 +5,9 @@ export interface CheckboxProps extends CheckboxPrimitive.CheckboxProps {}
 
 export const Checkbox = (props: CheckboxProps) => {
   return (
-    <CheckboxPrimitive.Root
-      className='w-6 h-6 p-[2px] bg-gray-100 rounded dark:bg-gray-800'
-      {...props}
-    >
+    <CheckboxPrimitive.Root className='w-6 h-6 p-[2px] bg-gray-800 rounded' {...props}>
       <CheckboxPrimitive.Indicator asChild>
-        <Check
-          weight='bold'
-          className='h-5 w-5 text-cyan-700 dark:text-cyan-500'
-        />
+        <Check weight='bold' className='h-5 w-5 text-cyan-500' />
       </CheckboxPrimitive.Indicator>
     </CheckboxPrimitive.Root>
   );
