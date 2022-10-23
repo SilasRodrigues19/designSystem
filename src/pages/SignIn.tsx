@@ -6,12 +6,12 @@ import { Logo } from '../Logo';
 import { StorybookLogo } from '../StorybookLogo';
 
 export const SignIn = () => {
-  const [isUserSigned, setIsUsedSigned] = useState(false);
+  const [isUserSignedIn, setIsUserSignedIn] = useState(false);
 
   const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
+    e.preventDefault;
 
-    setIsUsedSigned(true);
+    setIsUserSignedIn(true);
   };
 
   return (
@@ -29,11 +29,8 @@ export const SignIn = () => {
         </Text>
       </header>
 
-      <form
-        onSubmit={handleSubmit}
-        className='flex flex-col items-stretch gap-4 w-full max-w-sm mt-10'
-      >
-        {isUserSigned && <Text>Login realizado!</Text>}
+      <form className='flex flex-col items-stretch gap-4 w-full max-w-sm mt-10'>
+        {isUserSignedIn && <Text>Login realizado!</Text>}
         <label htmlFor='email' className='flex flex-col gap-3'>
           <Text className='font-semibold'>Endereço de e-mail</Text>
           <TextInput.Root>

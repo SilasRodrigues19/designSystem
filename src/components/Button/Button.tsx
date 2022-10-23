@@ -15,8 +15,8 @@ export const Button = ({ children, asChild, className, ...props }: ButtonProps) 
     <div>
       <CustomComponent
         className={clsx(
-          'py-3 px-4 bg-cyan-700 rounded font-semibold text-black text-sm w-full transition-colors hover:bg-cyan-800 focus:ring-2 ring-white dark:bg-cyan-500 dark:hover:bg-cyan-300',
-          className
+          'py-3 px-4 bg-cyan-500 rounded font-semibold text-black text-sm w-full transition-colors hover:bg-cyan-300 focus:ring-2 ring-white',
+          className,
         )}
         {...props}
       >
